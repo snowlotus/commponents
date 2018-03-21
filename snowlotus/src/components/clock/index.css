@@ -1,0 +1,30 @@
+/* 倒计时组件的样式 start*/
+.time__hours,.time__minutes,.time__seconds{
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  font-size: 56px;
+  color: #B42F22;
+  background-color:#F1E0AD;
+  border-radius: 8px;
+  padding:0 12px;
+  position: relative;
+}
+.time__seconds {
+  width: 136px;
+  padding-right: 40px;
+  box-sizing:border-box;
+}
+.time__seconds::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform:translateY(-50%);
+  width: 32px;
+  height: 72px;
+  background-image: url(https://jp.juancdn.com/wxMapp/yaoyiyao/time.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* 倒计时组件的样式 end*/

@@ -1,0 +1,22 @@
+/* 返回顶部按钮的样式 */
+.back-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 3;
+  width: 92px;
+  height: 92px;
+  transition:all 0.5s ease;
+}
+.back-top img {
+  width: 100%;
+  height: 100%;
+}
+.backtop-true{
+  opacity: 0;
+  transform: translateY(100%);
+}
+.backtop-false{
+  opacity: 1;
+  transform: translateY(0);
+}
